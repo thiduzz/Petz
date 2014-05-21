@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vermelho escuro -->
+    <color name="color_bkg_gradient_start">#9b3737</color>
+    <!-- Vermelho claro -->
+    <color name="color_bkg_gradient_end">#ec5151</color>
+    
+</resources>

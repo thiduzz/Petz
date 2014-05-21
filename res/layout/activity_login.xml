@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_gradient"
+    android:paddingTop="10dp"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    tools:context="com.main.petz.LoginActivity$PlaceholderFragment" >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/LoginImageContentDescription"
+        android:scaleType="fitXY"
+        android:src="@drawable/placeholder_square" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/sign_in_button_fb"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        fb:login_text="@string/facebook_login_sigin"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_button_fb"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logintextor"
+        android:layout_marginTop="20dp" 
+        android:textColor="@android:color/white" />
+
+    	<com.google.android.gms.common.SignInButton
+	    android:layout_marginTop="20dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/textor"
+    	android:id="@+id/sign_in_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>
