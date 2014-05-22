@@ -356,8 +356,8 @@ public class FacebookSignIn extends Fragment{
 	    public boolean signOutFromFacebook()
 	    {
 	        Session session = Session.getActiveSession();
+        	((TextView) activity.findViewById(R.id.textor)).setText(this.getResources().getString(R.string.logintextloggingout));
 	        if (session != null) {
-
 	            if (!session.isClosed()) {
 	            	Prefs.clearMyPreferences(activity.getApplicationContext());
 	                session.closeAndClearTokenInformation();
@@ -373,7 +373,7 @@ public class FacebookSignIn extends Fragment{
 	            }
 	            return false;
 	        } else {
-
+	        	((TextView) activity.findViewById(R.id.textor)).setText(this.getResources().getString(R.string.logintextloggingout));
 	            session = new Session(getActivity());
 	            Session.setActiveSession(session);
             	Prefs.clearMyPreferences(activity.getApplicationContext());

@@ -154,8 +154,8 @@ public class LoggedActivity extends ActionBarActivity implements
 					
 				}else if(gateway == 1)
 				{
-					LoginActivity.uiHelperFacebook.signOutFromFacebook();
 					this.finish();
+					LoginActivity.uiHelperFacebook.signOutFromFacebook();
 				}
 			           
             return true;

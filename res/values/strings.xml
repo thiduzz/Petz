@@ -15,6 +15,7 @@
     <string name="facebook_login_sigin">Sign in</string>
     <string name="logintextor">- OR -</string>
     <string name="logintextlogging">Logging in</string>
+    <string name="logintextloggingout">Logging out</string>
     <string name="title_facebook_login">Facebook login</string>
  	<string name="volley_generic_error">An unexpected error ocurred.</string>
 	<string name="volley_no_internet">It seems that you do not have a connection right now.</string>

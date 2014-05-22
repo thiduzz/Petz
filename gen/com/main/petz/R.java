@@ -1838,20 +1838,21 @@ containing a value of this type.
          */
         public static final int location_client_powered_by_google=0x7f080034;
         public static final int logintextlogging=0x7f08004f;
+        public static final int logintextloggingout=0x7f080050;
         public static final int logintextor=0x7f08004e;
         public static final int title_activity_logged=0x7f080047;
-        public static final int title_facebook_login=0x7f080050;
+        public static final int title_facebook_login=0x7f080051;
         public static final int title_section1=0x7f080048;
         public static final int title_section2=0x7f080049;
         public static final int title_section3=0x7f08004a;
-        public static final int volley_generic_error=0x7f080051;
-        public static final int volley_generic_server_down=0x7f080053;
-        public static final int volley_internalserver_error=0x7f080056;
-        public static final int volley_network_unavailable_title=0x7f080055;
-        public static final int volley_no_internet=0x7f080052;
-        public static final int volley_parse_error=0x7f080054;
-        public static final int volley_timeout_error=0x7f080057;
-        public static final int volley_unknownhost_error=0x7f080058;
+        public static final int volley_generic_error=0x7f080052;
+        public static final int volley_generic_server_down=0x7f080054;
+        public static final int volley_internalserver_error=0x7f080057;
+        public static final int volley_network_unavailable_title=0x7f080056;
+        public static final int volley_no_internet=0x7f080053;
+        public static final int volley_parse_error=0x7f080055;
+        public static final int volley_timeout_error=0x7f080058;
+        public static final int volley_unknownhost_error=0x7f080059;
     }
     public static final class style {
         /** 

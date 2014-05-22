@@ -217,6 +217,10 @@ public void onDestroy() {
 			if(google.mLogginOut)
 			{
 				google.mLogginOut = false;
+
+            	((SignInButton) LoginActivity.this.findViewById(R.id.sign_in_button)).setVisibility(SignInButton.INVISIBLE);
+            	((LoginButton) LoginActivity.this.findViewById(R.id.sign_in_button_fb)).setVisibility(LoginButton.INVISIBLE);
+            	((TextView) LoginActivity.this.findViewById(R.id.textor)).setText(LoginActivity.this.getResources().getString(R.string.logintextloggingout));
 				google.signOutFromGplus();
 	        	SignInButton bt = (SignInButton) LoginActivity.this.findViewById(R.id.sign_in_button);
 	        	bt.setVisibility(SignInButton.VISIBLE);
